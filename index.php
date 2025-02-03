@@ -93,7 +93,7 @@
                     await saveJSONToServer(jsonData, jsonName);
 
                     // Mettre à jour le diaporama
-                    const imageURL = `https://deepseek.my.id/zok/${imageName}`;
+                    const imageURL = `https://yourwebsite/${imageName}`;
                     log(`Image enregistrée : ${imageURL}`);
                     
                     images.push(imageURL);
